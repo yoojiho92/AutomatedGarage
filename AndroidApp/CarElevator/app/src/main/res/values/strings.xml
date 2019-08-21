@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CarElevator</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">보내기</string>
+    <string name="not_connected">기기가 연결되지 않았습니다.</string>
+    <string name="bt_not_enabled_leaving">블루투스가 비활성화 입니다.</string>
+    <string name="title_connecting">연결중...</string>
+    <string name="title_connected_to">연결됨: </string>
+    <string name="title_not_connected">연결되지 않음</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">창치를 찾는중...</string>
+    <string name="select_device">연결된 장치를 선택</string>
+    <string name="none_paired">페어링되어진 디바이스가 없습니다.</string>
+    <string name="none_found">장치를 찾을 수 없습니다.</string>
+    <string name="title_paired_devices">이미 페어링 되어진 장치입니다.</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+</resources>

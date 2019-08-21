@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:layout_marginBottom="60dp"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#b8b8e4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="테스트 버튼"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/test_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="왼쪽"/>
+            <Button
+                android:id="@+id/test_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="오른쪽"/>
+            <Button
+                android:id="@+id/test_reboot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="재시동"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_bt_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 검색"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="네비게이션"/>
+        <Button
+            android:id="@+id/btn_stream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스트리밍"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="거리측정 :"/>
+        <ToggleButton
+            android:id="@+id/toggle_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
